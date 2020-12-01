@@ -1,0 +1,70 @@
+body {
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.site-hero {
+	position: relative;
+	padding: 2rem 0 4rem 0;
+	margin-top: 4rem;
+}
+
+.hero-image {
+	position: absolute;
+	left: 33.3%;
+	top: 1.25rem;
+	height: 100%;
+	width: 100%;
+}
+
+.hero-text {
+	position: relative;
+	z-index: 10;
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.25rem;
+}
+
+.form-input {
+	padding: 10px 15px;
+}
+
+.form-input:focus {
+	border-color: rgba(55, 65, 81, 1);
+}
+
+.button-green {
+	background: #3b7976;
+	font-family: 'Lato', sans-serif;
+}
+.button-green:hover, .button-green:focus {
+	background: #306461;
+}
+
+.button-red {
+	background: rgb(180, 0, 55);
+}
+.button-red:hover, .button-red:focus {
+	background: rgb(197, 7, 64);
+}
+
+.cta-box {
+	background: #3b7976;
+}
+
+.cta {
+	color: #3b7976;
+}
