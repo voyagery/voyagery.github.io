@@ -6,7 +6,7 @@ body {
 .site-hero {
 	position: relative;
 	padding: 2rem 0 4rem 0;
-	margin-top: 4rem;
+	background: #3b7976;
 }
 
 .hero-image {
@@ -20,7 +20,6 @@ body {
 .hero-text {
 	position: relative;
 	z-index: 10;
-
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,4 +66,26 @@ h3 {
 
 .cta {
 	color: #3b7976;
+}
+
+/* Mailchimp form style override */
+#mc_embed_signup form {
+	padding: 0;
+}
+
+#mc_embed_signup .mc-field-group {
+	padding-bottom: 0;
+}
+
+#mc-embedded-subscribe {
+	margin: 0;
+}
+#mc-embedded-subscribe input {
+	border: 1px solid transparent;
+}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+	margin: 0;
+	margin-top: 3px;
+	padding: 0;
 }
