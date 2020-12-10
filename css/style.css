@@ -9,15 +9,25 @@ body {
 
 .site-hero {
 	position: relative;
-	padding: 2rem 0 4rem 0;
+	padding: 4rem 0 4rem 0;
 }
 
-.hero-image {
+.hero-image-1, .hero-image-2 {
 	position: absolute;
-	left: 33.3%;
-	top: 1.25rem;
+	left: 30%;
+	top: 4rem;
 	height: 100%;
 	width: 100%;
+	z-index: 10;
+}
+.hero-image-1 {
+	width: 50%;
+	object-position: bottom;
+}
+.hero-image-2 {
+	left: 35%;
+	top: 4rem;
+	z-index: 5;
 }
 
 .hero-text {
@@ -25,9 +35,13 @@ body {
 	z-index: 10;
 }
 
+/* Typography */
+p { padding: 0.5rem 0; }
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
+	padding: 1.5rem 0;
 }
 
 h1 {
